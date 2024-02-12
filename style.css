@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Protest+Riot&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Protest+Guerrilla&family=Protest+Riot&family=Roboto:wght@100&display=swap');
+
+body {
+    background: rgb(24, 25, 38);
+    color: rgb(204, 208, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container {
+    background-color: rgb(65, 69, 89);
+    padding: 10px 20%;
+    border-radius: 10px;
+    color: rgb(24, 25, 38);
+}
+
+h1 {
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+.childContainer {
+    background-color: rgb(36, 39, 58);
+    padding: 10px 20px;
+    padding-right: 100px;
+    color: rgb(65, 69, 89);
+    border-radius: 10px;
+}
+
+label,
+input,
+button,
+#heading-02,
+#theAnswer {
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgb(65, 69, 89);
+    color: rgb(186, 187, 241);
+    border: none;
+    outline: none;
+    padding: 7px 17px;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    color: rgb(186, 187, 241);
+}
+
+button {
+    background: rgb(24, 25, 38);
+    border: none;
+    padding: 10px 20px;
+    color: rgb(65, 69, 89);
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+    color: rgb(140, 170, 238);
+}
+
+button:active {
+    box-shadow: 0 0 10px rgba(140, 170, 238, 0.5);
+}
